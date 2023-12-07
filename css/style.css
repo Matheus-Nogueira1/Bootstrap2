@@ -1,0 +1,53 @@
+body{
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+}
+#form-container{
+    background-color:rgba(226, 221, 221, 0.521);
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px black;
+    margin: 25px auto;
+    padding: 25px;
+}
+#link-container{
+    text-align: center;
+}
+#form-container a{
+    color: black;
+}
+#form-container a:hover{
+    color: rgb(83, 83, 83);
+}
+#form-container .form-control{
+    border: none;
+    border-bottom: 2px ridge black;
+    border-right: 1px ridge black;
+    border-radius: 0px;
+}
+#form-container .form-control:focus{
+    box-shadow: none;
+}
+#form-container .form-floating label{
+    color: rgb(168, 168, 168);
+}
+#form-container .form-floating > .form-control:focus~label{
+    color: black;
+}
+#form-container input[type="submit"],
+#form-container input[type="checkbox"]:checked{
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+.row.align-items-center{
+    padding: 50px 0px;
+}
+#link-container{
+    text-align: center;
+    padding-top: 30px;
+}
+@media(max-width:768px){
+    .btn.btn-dark{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
